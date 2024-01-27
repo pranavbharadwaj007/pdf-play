@@ -1,13 +1,12 @@
 {
   "name": "pdf-play",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NPM Package for pdf manipulation.",
   "main": "lib/index.js",
-  "types": "index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
-    "test": "node_modules/.bin/jest"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -35,8 +34,5 @@
   },
   "files": [
     "lib/**/*"
-  ],
-  "dependencies": {
-    "jest": "^29.7.0"
-  }
+  ]
 }

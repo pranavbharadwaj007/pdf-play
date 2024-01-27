@@ -1,8 +1,5 @@
 import { spawn } from 'child_process';
-
-interface Options {
-    format: 'png' | 'jpeg' | 'jpg';
-}
+import { Options } from './types';
 
 export function toImage(pdfFilePath: string, options: Options): void {
     const { format } = options;
