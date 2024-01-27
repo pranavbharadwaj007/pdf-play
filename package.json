@@ -1,0 +1,42 @@
+{
+  "name": "pdf-play",
+  "version": "1.0.0",
+  "description": "A NPM Package for pdf manipulation.",
+  "main": "lib/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavbharadwaj007/pdf-play.git"
+  },
+  "keywords": [
+    "pdf-play",
+    "pdf-manuaplation",
+    "pdf2img",
+    "pdftoimage",
+    "pdf-image",
+    "pdftopng",
+    "pdftojpeg"
+  ],
+  "author": "Pranav N",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pranavbharadwaj007/pdf-play/issues"
+  },
+  "homepage": "https://github.com/pranavbharadwaj007/pdf-play#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.7",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
